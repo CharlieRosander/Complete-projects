@@ -19,7 +19,9 @@ Write-output '-------------------------------------------------'
 Write-output ' '
 Write-output 'Setting content of app.py, please wait...'
 Set-content app.py 'from flask import Flask
+
 app = Flask(__name__)
+
 @app.route("/")
 def hello_world():
     return "<p>Hello, World!</p>"'
@@ -41,11 +43,11 @@ pip install flask
 Write-output ' '
 Write-output '-------------------------------------------------'
 
-Write-output 'Clearing screen'
+Write-output 'CLEARING SCREEN'
 timeout 3
 Write-output ' '
 
-clear
+Clear-Host
 
 Write-output '-------------------------------------------------'
 Write-output ' '
