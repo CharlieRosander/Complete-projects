@@ -1,0 +1,5 @@
+matplotlib
+pandas
+python-dotenv
+Requests
+psycopg2-binary
