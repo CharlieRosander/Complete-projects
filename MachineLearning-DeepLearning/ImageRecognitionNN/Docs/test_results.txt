@@ -1,0 +1,24 @@
+Test-run: 1
+Train images: 200
+Test images: 60
+Epochs run: 8
+Batch size: 32
+Early stopping patience: 5
+Correct guesses: 33/60
+Test accuracy: 0.5
+Overall accuracy: 55.000%
+Training stopped early at epoch: 7
+
+
+Test-run: 2
+Train images: 200
+Test images: 60
+Epochs run: 15
+Batch size: 32
+Early stopping patience: 5
+Correct guesses: 29/60
+Test accuracy: 0.5333333611488342
+Overall accuracy: 48.333%
+Training completed and did not stop early.
+
+

@@ -11,8 +11,8 @@ from tensorflow.python.keras.regularizers import l1, l2
 from keras.preprocessing.image import ImageDataGenerator
 
 # Variables to hold the number of train and test images and epochs.
-epochs = 30
-train_img_num = 2000  # Adjust this variable to change the number of training images
+epochs = 15
+train_img_num = 200  # Adjust this variable to change the number of training images
 test_img_num = int(train_img_num * 0.3)  # Adjust this variable to change the number of test images
 batch_size = 32
 
